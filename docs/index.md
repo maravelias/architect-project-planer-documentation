@@ -4,6 +4,11 @@
 
 Welcome to the full documentation for *Architect Project Planner*, a deliverable-centric project management methodology and software specification designed specifically for architects and small design studios.
 
+!!! abstract "Core Principle"
+    Architects don’t manage tasks — **they manage deliverables.**
+
+This project exists to turn that reality into a usable, scalable system.
+
 ## Purpose
 This documentation serves as:
 
