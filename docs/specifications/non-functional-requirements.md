@@ -8,6 +8,7 @@
     This document defines the **quality, constraint, and operational requirements** of the system.
 
     It specifies:
+
     - performance boundaries
     - reliability guarantees
     - security posture
