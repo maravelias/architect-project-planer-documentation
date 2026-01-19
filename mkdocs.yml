@@ -70,6 +70,7 @@ nav:
       - Functional Requirements: specifications/functional-requirements.md
       - Non-Functional Requirements: specifications/non-functional-requirements.md
       - Permission Model: specifications/permission-model.md
+      - API Contract: specifications/api-specs.md
   - Estimation:
       - Time Estimation: estimation/time-estimation.md
       - Capacity Planning: estimation/capacity-planning.md
