@@ -25,10 +25,10 @@ extra:
 plugins:
   - search
   - kroki:
-      ServerURL: https://kroki.io
-      HttpMethod: POST
-      FencePrefix: ""
-      FileTypes:
+      server_url: https://kroki.io
+      http_method: POST
+      fence_prefix: ""
+      file_types:
         - svg
 
 markdown_extensions:
