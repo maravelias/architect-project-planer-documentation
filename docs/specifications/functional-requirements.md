@@ -49,6 +49,7 @@
 ### FR-PROJ-01: Project Creation
 
 The system **must allow** users to create a project with:
+
 - name
 - status
 - optional descriptive metadata
@@ -62,6 +63,7 @@ A project must be created **before** any deliverables, tasks, or time logs can e
 The system **must support** explicit project statuses.
 
 Project status changes:
+
 - must be intentional
 - must not automatically alter deliverable or task status
 
@@ -72,6 +74,7 @@ Project status changes:
 The system **must allow** projects to be archived.
 
 Archived projects:
+
 - remain readable
 - disallow creation of new deliverables, tasks, or time logs
 - preserve all historical data
