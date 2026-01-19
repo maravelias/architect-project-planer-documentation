@@ -6,6 +6,7 @@ Welcome to the full documentation for *Architect Project Planner*, a deliverable
 
 ## Purpose
 This documentation serves as:
+
 - A product and investor reference
 - A technical specification for developers
 - A methodology and workflow guide for architects
