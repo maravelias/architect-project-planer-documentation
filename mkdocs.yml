@@ -52,6 +52,14 @@ nav:
   - Vision:
       - Product Vision: vision/product-vision.md
       - Roadmap: vision/roadmap.md
+  - Core Concepts:
+      - Overview: core-concepts/index.md
+      - Project: core-concepts/project.md
+      - Phase: core-concepts/phase.md
+      - Deliverable: core-concepts/deliverable.md
+      - Task: core-concepts/task.md
+      - Time Log: core-concepts/time-log.md
+      - Weekly Capacity: core-concepts/weekly-capacity.md
   - Methodology:
       - Architectural Method: methodology/architectural-method.md
       - Workflows: methodology/workflows.md
