@@ -16,7 +16,7 @@ theme:
     - content.code.annotate
     - toc.integrate
 
-strict: true
+strict: false
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -25,11 +25,12 @@ extra:
 plugins:
   - search
   - kroki:
-      server_url: https://kroki.io
+      server_url: !ENV [ KROKI_SERVER_URL, 'https://kroki.io' ]
       http_method: POST
-      fence_prefix: ""
+      fence_prefix: "kroki-"
       file_types:
         - svg
+        - png
 
 markdown_extensions:
   - admonition

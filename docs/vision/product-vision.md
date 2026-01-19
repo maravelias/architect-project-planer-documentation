@@ -15,20 +15,24 @@ The vision is to create a system that reflects how architectural work actually h
 ## 2. The Problem We Are Solving
 
 Architectural practice suffers from a structural mismatch between:
+
 - how work is done, and
 - how work is managed.
 
 Most tools assume that architecture is:
+
 - task-based,
 - linear,
 - and predictable.
 
 In reality, architectural work is:
+
 - deliverable-based,
 - iterative,
 - and shaped by external authorities and approvals.
 
 This mismatch leads to:
+
 - chronic underestimation of effort,
 - uncontrolled iteration,
 - eroded fees,
@@ -89,6 +93,7 @@ Projects
 ```
 
 This model:
+
 - Matches professional responsibility
 - Scales from solo practice to small studios
 - Supports realistic estimation and learning
@@ -98,11 +103,13 @@ This model:
 ## 7. Time as a First-Class Concern
 
 Time is treated as:
+
 - finite,
 - expensive,
 - and professionally critical.
 
 The system acknowledges that:
+
 - estimation is probabilistic,
 - iteration is inevitable,
 - coordination is real work.
@@ -114,11 +121,13 @@ Rather than hiding this, the methodology **makes it explicit**.
 ## 8. Weekly Rhythm Over Daily Control
 
 The vision favors:
+
 - weekly planning,
 - visible capacity limits,
 - and intentional slack.
 
 Daily micromanagement is replaced by:
+
 - weekly commitments,
 - clear priorities,
 - and end-of-week learning.
@@ -132,6 +141,7 @@ This supports sustainable practice rather than constant urgency.
 Authorities, consultants, and reviewers are not exceptions — they are a defining feature of architectural work.
 
 The system treats:
+
 - each submission,
 - each review cycle,
 - each revision
@@ -147,10 +157,12 @@ This reframes uncertainty as **managed risk**.
 Every project contributes to future clarity.
 
 By comparing:
+
 - planned time vs actual time,
 - assumptions vs outcomes,
 
 the system helps architects:
+
 - improve estimates,
 - protect fees,
 - and make better decisions.
