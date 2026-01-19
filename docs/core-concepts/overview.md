@@ -33,7 +33,7 @@ They provide:
 
 Architectural work is organized around a clear hierarchy of responsibility. Each level contains the next, ensuring that all effort is tied back to a specific professional deliverable.
 
-```plantuml
+``` kroki-plantuml
 @startuml
 skinparam handwritten false
 skinparam packageStyle rectangle
