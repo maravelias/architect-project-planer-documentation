@@ -60,6 +60,7 @@ nav:
       - Project: core-concepts/project.md
       - Time Log: core-concepts/time-log.md
       - Weekly Capacity: core-concepts/weekly-capacity.md
+      - Planning & Control Extensions: core-concepts/planning-control-extensions.md
   - Methodology:
       - Architectural Method: methodology/architectural-method.md
       - Workflows: methodology/workflows.md
