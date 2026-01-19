@@ -100,7 +100,7 @@ Diagrams are a first-class documentation element.
 ### 6.1 Preferred Formats
 
 - **PlantUML** (primary)
-- Rendered via **Kroki**
+- Rendered via **Kroki** (using the `kroki-plantuml` fence)
 
 Diagrams must be readable in both:
 - Raw Markdown
@@ -120,7 +120,7 @@ Avoid decorative diagrams.
 
 **Entity Relationship Diagram**
 
-```plantuml
+```kroki-plantuml
 @startuml
 entity Project {
   +project_id
@@ -140,7 +140,7 @@ Project ||--o{ Deliverable
 
 **Workflow Diagram**
 
-```plantuml
+```kroki-plantuml
 @startuml
 start
 :Define Deliverables;
@@ -158,6 +158,7 @@ stop
 ## 7. Kroki Integration Guidelines
 
 - Diagrams should be compatible with Kroki rendering.
+- All PlantUML diagrams must use the ```kroki-plantuml fence for proper rendering via the `mkdocs-kroki-plugin`.
 - Prefer PlantUML over Mermaid unless specified.
 - Avoid proprietary or unsupported syntax.
 - Keep diagrams small and modular.
