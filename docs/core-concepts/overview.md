@@ -190,5 +190,3 @@ as they represent the center of the system.
 This section exists to establish that clarity.
 
 ---
-
-End of Core Concepts Overview
