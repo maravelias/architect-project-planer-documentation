@@ -1,0 +1,70 @@
+site_name: Architect Project Planner Documentation
+site_description: Deliverable-Driven Project & Time Management for Architects
+site_author: Giorgos Maravelias
+repo_url: https://github.com/maravelias/architect-project-planer-documentations
+copyright: Copyright &copy; 2026 Giorgos Maravelias
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - content.code.annotate
+    - toc.integrate
+
+strict: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/maravelias/architect-project-planer-documentation
+
+plugins:
+  - search
+  - kroki:
+      ServerURL: https://kroki.io
+      HttpMethod: POST
+      FencePrefix: ""
+      FileTypes:
+        - svg
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Vision:
+      - Product Vision: vision/product-vision.md
+      - Roadmap: vision/roadmap.md
+  - Methodology:
+      - Architectural Method: methodology/architectural-method.md
+      - Workflows: methodology/workflows.md
+      - Operating Rules: methodology/operating-rules.md
+  - Specifications:
+      - Data Model: specifications/data-model.md
+      - Functional Requirements: specifications/functional-requirements.md
+      - Non-Functional Requirements: specifications/non-functional-requirements.md
+  - Estimation:
+      - Time Estimation: estimation/time-estimation.md
+      - Capacity Planning: estimation/capacity-planning.md
+  - Implementation:
+      - Excel MVP: implementation/excel-mvp.md
+      - No-Code Options: implementation/no-code-options.md
+      - SaaS Architecture: implementation/saas-architecture.md
+  - Glossary: glossary.md
+
