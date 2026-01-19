@@ -233,7 +233,36 @@ If the answer is “no”, revise.
 
 ---
 
-## 13. Final Principle
+## 13. Commit Message Standards (Conventional Commits)
+
+To ensure a clear, machine-readable, and human-understandable project history, all contributions must follow the **Conventional Commits** specification.
+
+### 13.1 Format
+
+```text
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### 13.2 Allowed Types
+
+- **feat**: A new feature (e.g., adding a new documentation section)
+- **fix**: A fix (e.g., correcting a typo or broken link)
+- **docs**: Documentation only changes
+- **style**: Changes that do not affect the meaning of the content (formatting, white-space, etc.)
+- **refactor**: A change that neither fixes a bug nor adds a feature (e.g., restructuring files)
+- **chore**: Updating build tasks, package manager configs, etc.
+
+### 13.3 Example
+
+`docs(agents): add conventional commits methodology`
+
+---
+
+## 14. Final Principle
 
 The system serves the architect — not the other way around.
 
