@@ -44,9 +44,9 @@
 
 ---
 
-## 1. Project Management
+## 4. Project Management
 
-### FR‑PROJ‑01: Project Creation
+### FR-PROJ-01: Project Creation
 
 The system **must allow** users to create a project with:
 - name
@@ -57,7 +57,7 @@ A project must be created **before** any deliverables, tasks, or time logs can e
 
 ---
 
-### FR‑PROJ‑02: Project Status Management
+### FR-PROJ-02: Project Status Management
 
 The system **must support** explicit project statuses.
 
@@ -67,7 +67,7 @@ Project status changes:
 
 ---
 
-### FR‑PROJ‑03: Project Archival
+### FR-PROJ-03: Project Archival
 
 The system **must allow** projects to be archived.
 
@@ -80,9 +80,9 @@ Hard deletion is not permitted.
 
 ---
 
-## 2. Phase Management
+## 5. Phase Management
 
-### FR‑PHASE‑01: Phase Definition
+### FR-PHASE-01: Phase Definition
 
 The system **must allow** phases to be defined per project.
 
@@ -94,7 +94,7 @@ Phases:
 
 ---
 
-### FR‑PHASE‑02: Phase Independence
+### FR-PHASE-02: Phase Independence
 
 The system **must not** enforce:
 
@@ -104,9 +104,9 @@ The system **must not** enforce:
 
 ---
 
-## 3. Deliverable Management
+## 6. Deliverable Management
 
-### FR‑DEL‑01: Deliverable Creation
+### FR-DEL-01: Deliverable Creation
 
 The system **must allow** users to create deliverables with:
 
@@ -118,7 +118,7 @@ The system **must allow** users to create deliverables with:
 
 ---
 
-### FR‑DEL‑02: Ownership Enforcement
+### FR-DEL-02: Ownership Enforcement
 
 The system **must enforce** exactly one accountable owner per deliverable.
 
@@ -129,7 +129,7 @@ Ownership:
 
 ---
 
-### FR‑DEL‑03: Deliverable Status Transitions
+### FR-DEL-03: Deliverable Status Transitions
 
 The system **must support** explicit deliverable status transitions.
 
@@ -140,7 +140,7 @@ Completion:
 
 ---
 
-### FR‑DEL‑04: Deliverable Independence from Tasks
+### FR-DEL-04: Deliverable Independence From Tasks
 
 The system **must allow** deliverables to:
 
@@ -149,7 +149,7 @@ The system **must allow** deliverables to:
 
 ---
 
-### FR‑DEL‑05: Deliverable Priority
+### FR-DEL-05: Deliverable Priority
 
 The system **must require** deliverables to have a relative priority.
 
@@ -160,9 +160,9 @@ Priority:
 
 ---
 
-## 4. Task Management
+## 7. Task Management
 
-### FR‑TASK‑01: Task Creation
+### FR-TASK-01: Task Creation
 
 The system **must allow** tasks to be created **only** within a deliverable context.
 
@@ -170,7 +170,7 @@ Tasks must not exist independently.
 
 ---
 
-### FR‑TASK‑02: Task Mutability
+### FR-TASK-02: Task Mutability
 
 The system **must allow** tasks to be:
 
@@ -182,7 +182,7 @@ Deletion must not affect deliverable integrity.
 
 ---
 
-### FR‑TASK‑03: Task Status Handling
+### FR-TASK-03: Task Status Handling
 
 The system **must support** task statuses.
 
@@ -193,9 +193,9 @@ Task status:
 
 ---
 
-## 5. Time Logging
+## 8. Time Logging
 
-### FR‑TIME‑01: Time Log Creation
+### FR-TIME-01: Time Log Creation
 
 The system **must allow** users to log time:
 
@@ -205,7 +205,7 @@ The system **must allow** users to log time:
 
 ---
 
-### FR‑TIME‑02: Time Log Integrity
+### FR-TIME-02: Time Log Integrity
 
 The system **must enforce** that:
 
@@ -215,26 +215,26 @@ The system **must enforce** that:
 
 ---
 
-### FR‑TIME‑03: Time Log Independence
+### FR-TIME-03: Time Log Independence
 
 The system **must not**:
 
-- auto‑generate time logs
+- auto-generate time logs
 - infer time from task status
 - require time logs for progress
 
 ---
 
-### FR‑TIME‑04: Time Log Editing
+### FR-TIME-04: Time Log Editing
 
 The system **must allow** time logs to be corrected,
 while preserving an audit trail where required.
 
 ---
 
-## 6. Capacity Awareness
+## 9. Capacity Awareness
 
-### FR‑CAP‑01: Capacity Definition
+### FR-CAP-01: Capacity Definition
 
 The system **must allow** weekly capacity to be defined per user.
 
@@ -246,7 +246,7 @@ Capacity:
 
 ---
 
-### FR‑CAP‑02: Capacity Constraint Visibility
+### FR-CAP-02: Capacity Constraint Visibility
 
 The system **must surface** when planned or expected work exceeds capacity.
 
@@ -257,7 +257,7 @@ This indication:
 
 ---
 
-### FR‑CAP‑03: No Utilization Enforcement
+### FR-CAP-03: No Utilization Enforcement
 
 The system **must not**:
 
@@ -266,9 +266,9 @@ The system **must not**:
 
 ---
 
-## 7. Priority and Planning
+## 10. Priority and Planning
 
-### FR‑PLAN‑01: Deliverable‑First Planning
+### FR-PLAN-01: Deliverable-First Planning
 
 The system **must support** planning views that:
 
@@ -277,20 +277,20 @@ The system **must support** planning views that:
 
 ---
 
-### FR‑PLAN‑02: Priority Mutability
+### FR-PLAN-02: Priority Mutability
 
 The system **must allow** priorities to change at any time.
 
 Changes:
 
-- do not require re‑planning cascades
+- do not require re-planning cascades
 - must not invalidate historical data
 
 ---
 
-## 8. Status and Progress
+## 11. Status and Progress
 
-### FR‑STAT‑01: Explicit Status Representation
+### FR-STAT-01: Explicit Status Representation
 
 The system **must represent** status explicitly for:
 
@@ -300,7 +300,7 @@ The system **must represent** status explicitly for:
 
 ---
 
-### FR‑STAT‑02: Progress Determination
+### FR-STAT-02: Progress Determination
 
 The system **must determine progress** based on:
 
@@ -311,9 +311,9 @@ The system **must not calculate** progress percentages.
 
 ---
 
-## 9. Change Management
+## 12. Change Management
 
-### FR‑CHG‑01: Deliverable Modification
+### FR-CHG-01: Deliverable Modification
 
 The system **must allow** deliverables to be:
 
@@ -325,7 +325,7 @@ Changes must preserve history.
 
 ---
 
-### FR‑CHG‑02: Scope Expansion Handling
+### FR-CHG-02: Scope Expansion Handling
 
 The system **must support** adding new deliverables at any time.
 
@@ -333,9 +333,9 @@ The system must not absorb scope implicitly.
 
 ---
 
-## 10. Visibility and Reporting
+## 13. Visibility and Reporting
 
-### FR‑REP‑01: Deliverable‑Centric Reporting
+### FR-REP-01: Deliverable-Centric Reporting
 
 The system **must provide** reports centered on:
 
@@ -346,7 +346,7 @@ The system **must provide** reports centered on:
 
 ---
 
-### FR‑REP‑02: Time Reporting
+### FR-REP-02: Time Reporting
 
 The system **must allow** time data to be viewed:
 
@@ -357,25 +357,25 @@ The system **must allow** time data to be viewed:
 
 ---
 
-### FR‑REP‑03: Capacity Awareness Reporting
+### FR-REP-03: Capacity Awareness Reporting
 
 The system **must surface** capacity constraints in reports,
 without turning them into performance metrics.
 
 ---
 
-## 11. Permissions (Functional)
+## 14. Permissions (Functional)
 
-### FR‑PERM‑01: Role‑Based Access
+### FR-PERM-01: Role-Based Access
 
-The system **must support** role‑based permissions at:
+The system **must support** role-based permissions at:
 
 - project level
 - deliverable level
 
 ---
 
-### FR‑PERM‑02: Ownership Privileges
+### FR-PERM-02: Ownership Privileges
 
 Deliverable owners **must be able** to:
 
@@ -385,9 +385,9 @@ Deliverable owners **must be able** to:
 
 ---
 
-## 12. Prohibited Behaviors
+## 15. Prohibited Behaviors
 
-### FR‑PROH‑01: Time‑Driven Control
+### FR-PROH-01: Time-Driven Control
 
 The system **must not**:
 
@@ -397,7 +397,7 @@ The system **must not**:
 
 ---
 
-### FR‑PROH‑02: Metric‑Driven Evaluation
+### FR-PROH-02: Metric-Driven Evaluation
 
 The system **must not**:
 
@@ -407,39 +407,41 @@ The system **must not**:
 
 ---
 
-## Traceability Matrix (Excerpt)
+## 16. Traceability Matrix (Excerpt)
 
 | Requirement Area | Data Model Entity |
-|----------------|------------------|
-| Project Mgmt | Project |
-| Deliverable Mgmt | Deliverable |
-| Task Execution | Task |
-| Time Tracking | Time Log |
-| Capacity | Weekly Capacity |
+|------------------|-------------------|
+| Project Mgmt     | Project           |
+| Deliverable Mgmt | Deliverable       |
+| Task Execution   | Task              |
+| Time Tracking    | Time Log          |
+| Capacity         | Weekly Capacity   |
 
 ---
 
-## Validation Criteria
+## 17. Validation Criteria
 
-The system is considered compliant if:
+!!! abstract "Validation Criteria"
+    The system is considered compliant if:
 
-- all required behaviors are supported
-- all prohibited behaviors are impossible or discouraged by design
-- system outputs align with the methodology
-
----
-
-## Closing Statement
-
-These functional requirements ensure the system **does what it should — and refuses towhat it should not**.
-
-They translate the methodology into enforceable system behavior.
+    - all required behaviors are supported
+    - all prohibited behaviors are impossible or discouraged by design
+    - system outputs align with the methodology
 
 ---
 
-## 13. Auditability & Historical Integrity
+## 18. Closing Statement
 
-### FR‑AUD‑01: Historical Preservation
+!!! quote "Closing Statement"
+    These functional requirements ensure the system **does what it should — and refuses to do what it should not**.
+
+    They translate the methodology into enforceable system behavior.
+
+---
+
+## 19. Auditability & Historical Integrity
+
+### FR-AUD-01: Historical Preservation
 
 The system **must preserve** historical records for:
 
@@ -456,7 +458,7 @@ Historical data:
 
 ---
 
-### FR‑AUD‑02: Change Traceability
+### FR-AUD-02: Change Traceability
 
 The system **must record** when the following change:
 
@@ -473,7 +475,7 @@ Each record must include:
 
 ---
 
-### FR‑AUD‑03: Non‑Destructive Editing
+### FR-AUD-03: Non-Destructive Editing
 
 The system **must prefer**:
 
@@ -484,9 +486,9 @@ over destructive updates for critical data.
 
 ---
 
-## 14. Ownership & Accountability Enforcement
+## 20. Ownership & Accountability Enforcement
 
-### FR‑OWN‑01: Owner‑Only Completion Authority
+### FR-OWN-01: Owner-Only Completion Authority
 
 The system **must restrict** deliverable completion confirmation to:
 
@@ -495,7 +497,7 @@ The system **must restrict** deliverable completion confirmation to:
 
 ---
 
-### FR‑OWN‑02: Ownership Visibility
+### FR-OWN-02: Ownership Visibility
 
 The system **must clearly expose** deliverable ownership in all:
 
@@ -507,7 +509,7 @@ Ownership must never be implicit.
 
 ---
 
-### FR‑OWN‑03: Orphan Prevention
+### FR-OWN-03: Orphan Prevention
 
 The system **must prevent**:
 
@@ -518,9 +520,9 @@ if it would leave a deliverable without ownership.
 
 ---
 
-## 15. Data Integrity & Validation Rules
+## 21. Data Integrity & Validation Rules
 
-### FR‑DATA‑01: Required Field Enforcement
+### FR-DATA-01: Required Field Enforcement
 
 The system **must enforce** presence of required fields defined in the Data Model.
 
@@ -528,7 +530,7 @@ Creation must fail if required data is missing.
 
 ---
 
-### FR‑DATA‑02: Referential Integrity
+### FR-DATA-02: Referential Integrity
 
 The system **must enforce** referential integrity between:
 
@@ -540,7 +542,7 @@ Dangling references are prohibited.
 
 ---
 
-### FR‑DATA‑03: Cross‑Project Contamination Prevention
+### FR-DATA-03: Cross-Project Contamination Prevention
 
 The system **must prevent**:
 
@@ -549,9 +551,9 @@ The system **must prevent**:
 
 ---
 
-## 16. User Behavior Safeguards
+## 22. User Behavior Safeguards
 
-### FR‑SAFE‑01: Overwork Signalization
+### FR-SAFE-01: Overwork Signalization
 
 The system **must allow** identification of:
 
@@ -561,12 +563,12 @@ The system **must allow** identification of:
 This must be:
 
 - informational
-- non‑punitive
-- non‑automated in response
+- non-punitive
+- non-automated in response
 
 ---
 
-### FR‑SAFE‑02: Transparency Protection
+### FR-SAFE-02: Transparency Protection
 
 The system **must not penalize** users for:
 
@@ -576,19 +578,19 @@ The system **must not penalize** users for:
 
 ---
 
-### FR‑SAFE‑03: No Forced Optimizations
+### FR-SAFE-03: No Forced Optimizations
 
 The system **must not**:
 
-- recommend speed‑ups
-- auto‑compress scope
+- recommend speed-ups
+- auto-compress scope
 - suggest “efficiency improvements” based on metrics
 
 ---
 
-## 17. System Behavior Under Incomplete Information
+## 23. System Behavior Under Incomplete Information
 
-### FR‑INC‑01: Graceful Incompleteness
+### FR-INC-01: Graceful Incompleteness
 
 The system **must function** when:
 
@@ -600,7 +602,7 @@ Missing data must not block work.
 
 ---
 
-### FR‑INC‑02: Explicit Unknowns
+### FR-INC-02: Explicit Unknowns
 
 Where data is missing, the system **must display**:
 
@@ -611,9 +613,9 @@ instead of inferred values.
 
 ---
 
-## 18. Export, Interoperability & Portability
+## 24. Export, Interoperability & Portability
 
-### FR‑EXP‑01: Data Export
+### FR-EXP-01: Data Export
 
 The system **must allow** export of:
 
@@ -626,7 +628,7 @@ Exports must preserve identifiers and relationships.
 
 ---
 
-### FR‑EXP‑02: Methodology Preservation on Export
+### FR-EXP-02: Methodology Preservation on Export
 
 Exported data **must not**:
 
@@ -636,9 +638,9 @@ Exported data **must not**:
 
 ---
 
-## 19. Error Handling & User Feedback (Functional)
+## 25. Error Handling & User Feedback (Functional)
 
-### FR‑ERR‑01: Constraint Violation Feedback
+### FR-ERR-01: Constraint Violation Feedback
 
 When an action violates a rule, the system **must**:
 
@@ -648,7 +650,7 @@ When an action violates a rule, the system **must**:
 
 ---
 
-### FR‑ERR‑02: No Silent Failure
+### FR-ERR-02: No Silent Failure
 
 The system **must not** fail silently.
 
@@ -656,41 +658,44 @@ All rejected actions must return explicit feedback.
 
 ---
 
-## 20. System Guarantees (Non‑Negotiable)
+## 26. System Guarantees (Non-Negotiable)
 
-The system **guarantees** that:
+!!! warning "System Guarantees"
+    The system **guarantees** that:
 
-- no work exists without context
-- no value exists without ownership
-- no time represents intention
-- no metric replaces judgment
-- no optimization overrides sustainability
-
----
-
-## 21. Compliance Checklist (Summary)
-
-The system is compliant only if:
-
-- deliverables are the dominant planning unit
-- ownership is explicit and enforced
-- time is observational, not prescriptive
-- capacity constrains without coercion
-- reports describe reality, not performance
+    - no work exists without context
+    - no value exists without ownership
+    - no time represents intention
+    - no metric replaces judgment
+    - no optimization overrides sustainability
 
 ---
 
-## Final Statement
+## 27. Compliance Checklist (Summary)
 
-These Functional Requirements are **intentionally restrictive**.
+!!! success "Compliance Checklist"
+    The system is compliant only if:
 
-If the system feels “less automated” or “less optimized” than typical tools,
-that indicates correct implementation.
+    - deliverables are the dominant planning unit
+    - ownership is explicit and enforced
+    - time is observational, not prescriptive
+    - capacity constrains without coercion
+    - reports describe reality, not performance
 
-The system exists to:
+---
 
-- support professional judgment
-- protect people
-- preserve truth
+## 28. Final Statement
+
+!!! quote "Final Statement"
+    These Functional Requirements are **intentionally restrictive**.
+
+    If the system feels “less automated” or “less optimized” than typical tools,
+    that indicates correct implementation.
+
+    The system exists to:
+
+    - support professional judgment
+    - protect people
+    - preserve truth
 
 ---
