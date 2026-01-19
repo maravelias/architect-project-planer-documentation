@@ -58,7 +58,7 @@ This hierarchy forms the backbone of the methodology and all future implementati
 
 This repository will host a complete MkDocs documentation site, including:
 
-- 📌 **Product Vision & Investor Pitch**
+- 📌 **Product Vision **
 - 📐 **Architect Methodology & Workflows**
 - 🧩 **Data Model & Technical Specifications**
 - ⏱️ **Time Estimation & Capacity Logic**
@@ -92,32 +92,6 @@ The documentation is implementation-agnostic and can be applied to:
     - Versioned documentation
 
 ---
-
-## 🗂️ Suggested Documentation Structure
-
-```text
-docs/
-├── index.md                 # Introduction & overview
-├── vision/
-│   ├── product-vision.md
-│   └── roadmap.md
-├── methodology/
-│   ├── architectural-method.md
-│   ├── workflows.md
-│   └── operating-rules.md
-├── specifications/
-│   ├── data-model.md
-│   ├── functional-requirements.md
-│   └── non-functional-requirements.md
-├── estimation/
-│   ├── time-estimation.md
-│   └── capacity-planning.md
-├── implementation/
-│   ├── excel-mvp.md
-│   ├── no-code-options.md
-│   └── saas-architecture.md
-└── glossary.md
-```
 
 ## 📈 Project Status
 
@@ -168,4 +142,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 **Created by Giorgos Maravelias**
 
-Architect | Product Thinker | System Designer
+Software Architect | Product Thinker | System Designer
